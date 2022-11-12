@@ -33,7 +33,7 @@ Given an example of the booklet
 Our application will be based on a unique id which is the uhid in our case which can be converted into a KYC format in the future 
 It is a standard login page aceesable to both user and hospital staff.
 
-The first page is implemented using HTML and given as frontpage.html in our repo.
+The first page is implemented using JSS after downloading all the files you shall be able to implement
 
 ![](3.jpeg)
 
@@ -65,7 +65,7 @@ The next step involves taking the extracted data asd adding it to a unique stude
 
 As shown below in the image our data set has been formed for patient namit and his data is stored as given below.
 
-The last page is implemented using HTML and given as datapage.html in our repo.
+
 
 
 ![](4.jpeg)
