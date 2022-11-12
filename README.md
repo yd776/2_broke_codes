@@ -21,10 +21,21 @@ He/she is not able to access thir data nor are they able to add their lab report
 
 Given an example of the booklet
 
+![](1.jpeg)  ![](2.jpeg)
+
 
 ## Given the short time and our low resources for this hackathon we were not able to implement handwritten to text using a cnn deep learning model our application is only based on tect data which it can capture or is given as a png of a lab report.
 
-### Step 1:(Scanning the document)
+
+### Step 1:(Signing in using login id and password)
+
+Our application will be based on a unique id which is the uhid in our case which can be converted into a KYC format in the future 
+It is a standard login page aceesable to both user and hospital staff.
+
+![](3.jpeg)
+
+
+### Step 2:(Scanning the document)
 We are using opencv library to get an image of the file to be scanned our scanned image is stored in the same directory.
 
 The user for now has to run the scanner.py file to run the code.
@@ -33,7 +44,7 @@ the final image is stored and will be used for further analysis
 
 (inser ss here)
 
-### Step 2:(Getting Text from image)
+### Step 3:(Getting Text from image)
 Once we have got the image from the scaner we have used the tensorflow library which is an open source library 
 Using tensor flow we are able to extract the important information given in the op cards like uhid ,name ,age , sex etc
 
@@ -43,14 +54,14 @@ where the student will be able to access his or her data like when did he visit 
 
 (INSERT SS HERE)
 
-### Step 3 (Taking the data to output)
+### Step 4 (Taking the data to output)
 
 The next step involves taking the extracted data asd adding it to a unique student databse which shall be acessable only to the student and hospital staff.
 
-As shown below in the image our data set has been formed for patient namit and his data is stored
+As shown below in the image our data set has been formed for patient namit and his data is stored as given below.
 
 
-
+![](4.jpeg)
 
 
 ## Installation guide: 📖
