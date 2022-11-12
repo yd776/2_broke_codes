@@ -22,6 +22,36 @@ He/she is not able to access thir data nor are they able to add their lab report
 Given an example of the booklet
 
 
+## Given the short time and our low resources for this hackathon we were not able to implement handwritten to text using a cnn deep learning model our application is only based on tect data which it can capture or is given as a png of a lab report.
+
+### Step 1:(Scanning the document)
+We are using opencv library to get an image of the file to be scanned our scanned image is stored in the same directory.
+
+The user for now has to run the scanner.py file to run the code.
+The webcam should open up and should we can take an image using the spacebar key and escape using the escape key
+the final image is stored and will be used for further analysis
+
+(inser ss here)
+
+### Step 2:(Getting Text from image)
+Once we have got the image from the scaner we have used the tensorflow library which is an open source library 
+Using tensor flow we are able to extract the important information given in the op cards like uhid ,name ,age , sex etc
+
+the extracted information will be stored in the students dataset in the future application of this project.
+where the student will be able to access his or her data like when did he visit who was the doctor and what was his diagnosis.
+
+
+(INSERT SS HERE)
+
+### Step 3 (Taking the data to output)
+
+The next step involves taking the extracted data asd adding it to a unique student databse which shall be acessable only to the student and hospital staff.
+
+As shown below in the image our data set has been formed for patient namit and his data is stored
+
+
+
+
 
 ## Installation guide: 📖
 After cloning the repo or copying the code, run the following commands on your *command promt* before running the code.
